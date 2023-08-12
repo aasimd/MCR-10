@@ -1,0 +1,11 @@
+/** @format */
+
+.departments-card ul li {
+	cursor: pointer;
+	transition: 0.4s;
+}
+.departments-card ul li:hover {
+	background-color: black;
+	color: white;
+	transform: scale(1.05);
+}

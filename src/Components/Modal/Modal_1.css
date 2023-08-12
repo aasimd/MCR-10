@@ -1,0 +1,38 @@
+/** @format */
+
+.add-new-product {
+	display: flex;
+	flex-direction: column;
+}
+.add-new-product form {
+	gap: 0.5rem;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	width: 60%;
+	margin: auto;
+    padding: 30px;
+}
+select {
+	padding: 10px;
+	border-radius: 10px;
+}
+input {
+	padding: 10px;
+	border-radius: 10px;
+	border: 1px solid;
+}
+.add-new-product button {
+	padding: 10px;
+	border-radius: 10px;
+	border: 1px solid;
+	margin-left: 20px;
+}
+.add-new-product form label {
+	font-weight: 700;
+}
+.add-new-product input[type="submit"] {
+    background-color: blue;
+    color: white;
+    font-weight: 700;
+}

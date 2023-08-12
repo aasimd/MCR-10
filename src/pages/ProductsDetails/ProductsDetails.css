@@ -1,0 +1,16 @@
+/** @format */
+
+.single-product-page {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	text-align: left;
+	padding: 0 50px;
+}
+.single-product-image-container {
+	width: 300px;
+}
+.single-product-image-container img {
+	width: 100%;
+}

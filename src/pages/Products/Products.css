@@ -1,0 +1,43 @@
+/** @format */
+* {
+	box-sizing: border-box;
+}
+.products-header {
+	display: flex;
+	gap: 1rem;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+table,
+td,
+th {
+	border: 1px solid black;
+}
+th {
+	background-color: beige;
+}
+table {
+	width: 80%;
+	padding: 20px;
+	margin: 20px;
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+table th {
+	height: 40px;
+}
+table .table-1-column {
+	width: 150px;
+	height: 160px;
+}
+table .table-1-column img {
+	width: 100%;
+}
+table .table-2-column a {
+	cursor: pointer;
+	color: blue;
+}
+table .table-2-column a:hover {
+	/* color: blue; */
+	text-decoration: underline;
+}

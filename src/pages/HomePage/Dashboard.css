@@ -1,0 +1,19 @@
+/** @format */
+
+.dashboard-list-card{
+    padding: 20px;
+}
+.dashboard-list-card ul {
+	display: flex;
+	justify-content: space-evenly;
+	gap: 2rem;
+	flex-wrap: wrap;
+}
+
+.dashboard-list-card ul li {
+    width: 200px;
+	padding: 20px;
+	background-color: #eeecec;
+	border-radius: 20px;
+	/* flex: 1; */
+}
