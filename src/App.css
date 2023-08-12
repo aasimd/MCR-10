@@ -17,8 +17,8 @@
 	grid-template-columns: 20% 1fr;
 	grid-template-areas: "side main";
 }
-.main-nav{
-	height: 100vh;
+.main-nav {
+	height: 100%;
 	background-color: #282c34;
 }
 .App-logo {
